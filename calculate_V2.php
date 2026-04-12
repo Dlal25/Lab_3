@@ -57,23 +57,4 @@ if (isset($_POST['course'], $_POST['credits'], $_POST['grade'])) {
 }
 exit;
 ?>
-```
 
----
-
-## 📂 Structure GitHub
-```
-gpa-calculator/
-├── step1/
-│   ├── index.html
-│   ├── script.js
-│   ├── style.css
-│   └── calculate.php
-├── step2/
-│   ├── index.php
-│   └── style.css       ← نفس ملف step1
-└── step3/
-    ├── index.html
-    ├── script.js
-    ├── style.css       ← نفس ملف step1
-    └── calculate.php
